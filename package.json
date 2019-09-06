@@ -1,0 +1,22 @@
+{
+  "name": "lasttry",
+  "version": "1.0.0",
+  "engines": {
+    "node":"10.16.3",
+    "npm":"6.9.0"
+  },
+  "description": "last try tying to make this work ",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "zach harwood",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
